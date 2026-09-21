@@ -33,8 +33,18 @@ print(f"{nz}\t És\nA\tB\t{zold}A and B\n{nz}I\tI\t{zold}I\n{nz}H\tI\t{zold}H\n{
 print(f"{nz}\t Kizáró vagy\nA\tB\t{zold}A and B\n{nz}I\tI\t{zold}H\n{nz}H\tI\t{zold}I\n{nz}I\tH\t{zold}I\n{nz}H\tH\t{zold}H\n{nz}")
 
 #3
+asd = int(input("asd"))
+if asd%10 == 0:
+    print("a szám osztahtó 10el")
+else:
+    print(asd%10)
 
-
+#4
+hbfds = int(input("hbfds"))
+hgjsdf = int(input("hgjsdf"))
+if hgjsdf == 0:
+    print("Hiba")
+hbfds/hgjsdf
 
 
 
